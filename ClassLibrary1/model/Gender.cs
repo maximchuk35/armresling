@@ -2,6 +2,7 @@
 
 namespace ClassLibrary1.model
 {
+    [Serializable]
     public class Gender
     { 
         public string Name { get; }
@@ -14,6 +15,7 @@ namespace ClassLibrary1.model
             }
 
             Name = name;
+        }
 
             public override string ToString()
         {
@@ -24,4 +26,4 @@ namespace ClassLibrary1.model
 
 
     }
-}
+

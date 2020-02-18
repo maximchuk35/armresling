@@ -2,9 +2,12 @@
 using System.Collections.Generic;
 using System.Text;
 
+
 namespace ClassLibrary1.model
 {
-   public class User
+
+    [Serializable]
+    public class User
     {
         public string Name { get;}
         public Gender Gender { get; }
